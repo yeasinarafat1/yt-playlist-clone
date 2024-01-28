@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0f0f0f;
+}
+
+nav {
+    padding-top: 10px;
+    height: 7vh;
+    width: 98vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid white; */
+    /* overflow: hidden; */
+}
+
+.yt-logo {
+    display: flex;
+    gap: 7px;
+    height: 100%;
+    align-items: center;
+    position: relative;
+    
+}
+
+
+.yt-logo .yt {
+    width: 90px;
+    height: 20ox;
+    cursor: pointer;
+}
+
+.yt-logo .country {
+    color: #aaaaaa;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    position: absolute;
+    right: -16px;
+    top: 6px;
+}
+
+.yt-logo .menu {
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+}
+
+.search-box {
+    width: 624px;
+    height: 97%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+.search-bar {
+    display: flex;
+}
+
+.search-bar .input {
+    border: 0.1px solid #aaaaaa49;
+    border-radius: 40px 0 0 40px;
+}
+
+.search-bar .input input {
+    height: 40px;
+    width: 510px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    color: white;
+    padding-left: 10px;
+}
+
+.icon2 {
+    /* margin: auto; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 64px;
+    background-color: #ffffff14;
+    border-radius: 0 40px 40px 0;
+    border: 0.1px solid #aaaaaa49;
+    cursor: pointer;
+}
+
+.voice-logo {
+    height: 40px;
+    width: 40px;
+    border-radius: 50% 50%;
+    background-color: #ffffff14;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+.sec3 {
+    display: flex;
+}
+
+.sec3 .new,
+.notification,.search{
+    height: 40px;
+    width: 40px;
+    border-radius: 50% 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.new:hover,
+.notification:hover,.search:hover {
+    background-color: #ffffff14;
+}
+
+.profile {
+    height: 32px;
+    width: 32px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.profile img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50% 50%;
+}
+
+
+
+::-webkit-scrollbar {
+    background-color: rgb(42, 40, 40);
+    width: .7rem;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(76, 73, 73);
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+ 
+
+ 
+ 
+ 
+
+/* #mobile{
+    display: none;
+    position: absolute;
+    z-index: 10;
+    background-color: #0f0f0f;
+    width: 188px;
+    transition: all 2s ease-in-out;
+} */
+@media(max-width:800px) {
+    .option {
+        display: none;
+    }
+
+    .mobile {
+        display: flex !important;
+        position: absolute;
+        z-index: 10;
+        background-color: #0f0f0f;
+        width: 188px;
+        transition: all 2s ease-in-out;
+    }
+
+    .search-bar {
+        width: 300px;
+        /* overflow: hidden; */
+    }
+    .yt-logo .yt{
+        height: 40%;
+    }
+    .search-bar .input{
+         
+    }
+    .search-bar .input input{
+        width: 100px;
+        height: 70%;
+    }
+}
