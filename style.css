@@ -466,6 +466,7 @@ main {
     .sceond{
         width: 100vw !important;
         margin: auto;
+        margin-top: 10px;
     }
     .container .img{
         height: 67%;

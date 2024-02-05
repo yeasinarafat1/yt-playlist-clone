@@ -172,6 +172,9 @@ nav {
     transition: all 2s ease-in-out;
 } */
 @media(max-width:800px) {
+    .sceond{
+        margin-top: 20px;
+    }
     .option {
         display: none;
     }
